@@ -1,0 +1,58 @@
+* {
+	border-sizing : border-box;
+}
+
+body {
+	
+	display : inline-block;
+	font-family : Arial, sans-serif;
+	font-size : 22px;
+	background : orange;
+	padding : 6px;
+}
+
+.outer-shell {
+	display : inline-block;
+	position : relative;
+	background-color : grey;
+	padding : 18px;
+	height : 600px;
+	width : 360px;
+}
+
+.inner-shell {
+	display : inline-block;
+	position : relative;
+	background-color: black;
+	color : white;
+	padding : 32px 18px;
+	border-radius : 20px;
+}
+
+.clock-screen {
+	display : inline-block;
+	position : relative;
+	background-color : brown;
+}
+
+.ampm-indicator {
+	color : darkred;
+}
+
+.clock-text {
+	display : inline-block;
+	color : darkred;
+	font-size : 66px;
+}
+
+.am-freqlabel {
+	display : inline-block;
+	color : white;
+	font-size : 22px;
+}
+
+.pm-freqlabel {
+	display : inline-block;
+	color : white;
+	font-size : 22px;
+}
