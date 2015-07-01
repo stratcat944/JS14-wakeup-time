@@ -21,7 +21,7 @@ var pmFreqLabel		$('<div class="pm-freqlabel">PM</div>');
 
 // appends
 
-$(body).append(outerShell);
+$('.container').append(outer-shell);
 
 $(outerShell).append(inner-shell);
 
