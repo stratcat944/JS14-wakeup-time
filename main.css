@@ -1,57 +1,35 @@
 .container {
-	border: 1px solid black;
+	border: 10px silver; 
 	float:left;
 	position: relative;
-	height:500px;
+	height:350px;
 	width:700px;
 	display: inline-block;
-	background-color:silver;
+	background-color:grey;
 	border-radius: 7px;
 	padding: 10px;
 }
 
 .innerShell {
 	position: relative;
-	height: 450px;
+	height: 320px;
 	width: 650px;
 	display: inline-block;
-	background-color: black;
-	margin-top: 25px;
+	background-color: #3F2009;
+	margin-top: 15px;
 	margin-left: 25px;
 	border-radius: 3px;
 
 }
 
-
-.leftLabel {
-	float:left;
-	position: relative;
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	background-color: white;
-	margin-top: 208px;
-	border-radius: 1em;
-}
-
-.rightLabel {
-	float:right;
-	position: relative;
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	background-color: white;
-	margin-top: 208px;
-	border-radius: 1em;
-}
-
 .clockScreen {
 	position: relative;
-	height:175px;
+	height:200px;
 	width:550px;
 	display: inline-block;
 	background-color : darkred;
 	margin-top: 11px;
+	margin-left: 50px;
 	border-radius: 1em;
 }
 
@@ -65,17 +43,15 @@
 	margin-left: 25%;
 }
 
-.bottomAm {
-	display: inline-block;
-	font-color: black;
-	font-size: 32px;
-	margin-top: 5px;
+.amLabel {
+	position: relative;
+	display : inline-block;
+	background-color: white;
+	float : left;
+	height: 42px;
+	width: 42px;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
-
-.bottomPm {
-	display: inline-block;
-	font-color: black;
-	font-size: 32px;
-	margin-top: 5px;
-}

@@ -1,22 +1,27 @@
 $(document).on('ready', function() {
 
 	var innerShell = $('<div class="innerShell"> </div>');
-	var leftbuttonAM = $('<div class="leftLabel"> </div>');
-	var rightbuttonPM = $('<div class="rightLabel"> </div>');
-	var clockScreen = $('<div class="clockScreen"> </div>');
-	var clockText = $('<div class="clockText">12:30</div>');
-	var bottomLabelAM = $('<div class="bottomAm">AM</div>');
-	var bottomLabelPM = $('<div class="bottomPm">PM</div>'); 
 
+	var clockScreen = $('<div class="clockScreen"> </div>');
+
+	var clockText = $('<div class="clockText">11:57</div>');
+
+	var amLabel = $('<div class="amLabel"> </div>')
+
+	var pmLabel = $('<div class="pmLabel"> </div>')
 
 
 	$('.container').append(innerShell);
-	$(innerShell).append(leftbuttonAM);
-	$(innerShell).append(rightbuttonPM);
+
 	$(innerShell).append(clockScreen);
+
 	$(clockScreen).append(clockText);
-	$(leftbuttonAM).append(bottomLabelAM);
-	$(rightbuttonPM).append(bottomLabelPM);
+
+	$(clockScreen).append(amLabel);
+
+	$(clockScreen).append(pmLabel);
+
+
 
 
 });
