@@ -12,10 +12,16 @@ $(document).on('ready', function() {
 
 	var pmLabel = $('<div class="pmLabel">PM</div>');
 
+	var radioTuner = $('<div class="tuner">AM 530 600 700 900 1100 1400 1700</div><div class="tuner">FM 88 90 92 95 98 101 104 106 108</div>');
+
 
 	$('.container').append(innerShell);
 
 	$(innerShell).append(clockScreen);
+
+	$(innerShell).append(radioTuner);
+
+	$(innerShell).append(radioTuner);
 
 	$(clockScreen).append(clockText);
 
