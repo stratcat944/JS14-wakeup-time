@@ -34,24 +34,60 @@
 }
 
 .clockText {
+	position: relative;
 	display: inline-block;
 	color:red;
 	font-family: Arial, sans-serif;
 	font-size: 100px;
 	font-weight: bold;
 	margin-top: 36px;
-	margin-left: 25%;
+	margin-right: 18px;
+	float:right;
+}
+
+.ampmBox {
+	display: inline-block;
+	width: 68px;
+	height: 180px;
+	position: relative;
+	background-color: black;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
 }
 
 .amLabel {
 	position: relative;
 	display : inline-block;
-	background-color: white;
+	background-color: black;
 	float : left;
-	height: 42px;
-	width: 42px;
-	border-radius: 50px;
-	margin-top: 10px;
-	margin-left: 10px;
+	height: 36px;
+	width: 36px;
+	margin-top: 36px;
+	margin-left: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 36px;
+}
+
+.pmLabel {
+	position: relative;
+	display: inline-block;
+	background-color: black;
+	float: left;
+	height: 36px;
+	width: 36px;
+	margin-top: 36px;
+	margin-left: 16px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 36px;
 }
 

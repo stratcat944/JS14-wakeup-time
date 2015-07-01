@@ -4,11 +4,13 @@ $(document).on('ready', function() {
 
 	var clockScreen = $('<div class="clockScreen"> </div>');
 
-	var clockText = $('<div class="clockText">11:57</div>');
+	var clockText = $('<div class="clockText">11:57:00</div>');
 
-	var amLabel = $('<div class="amLabel"> </div>')
+	var ampmBox = $('<div class="ampmBox"> </div>');
 
-	var pmLabel = $('<div class="pmLabel"> </div>')
+	var amLabel = $('<div class="amLabel">AM</div>');
+
+	var pmLabel = $('<div class="pmLabel">PM</div>');
 
 
 	$('.container').append(innerShell);
@@ -17,9 +19,11 @@ $(document).on('ready', function() {
 
 	$(clockScreen).append(clockText);
 
-	$(clockScreen).append(amLabel);
+	$(clockScreen).append(ampmBox);
 
-	$(clockScreen).append(pmLabel);
+	$(ampmBox).append(amLabel);
+
+	$(ampmBox).append(pmLabel);
 
 
 
